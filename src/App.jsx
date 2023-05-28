@@ -1,11 +1,17 @@
 import "./App.css";
-import HomePage from "./Components/HomePage";
+import ContentPart from "./Components/ContentPart";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import NavBar from "./Components/NavBar";
 
 function App() {
 
   return (
     <>
-      <HomePage />
+      <NavBar />
+      <Header />
+      <ContentPart />
+      <Footer />
     </>
   );
 }
