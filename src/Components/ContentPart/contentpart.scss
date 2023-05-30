@@ -1,0 +1,49 @@
+main {
+    // text-align: center;
+    margin: 8em;
+    width: 650px;
+    background-color: rgba(128, 128, 128, 0.559);
+
+    .item-container {
+
+        padding: 2em;
+
+        .item {
+            margin: 1.5em 0;
+            background-color: rgb(225, 123, 82);
+            padding: 1.2em;
+
+            input[type="checkbox"] {
+                text-align: center;
+                width: 28px;
+                min-width: 28px;
+                height: 28px;
+                min-height: 28px;
+                cursor: pointer;
+                margin-right: 1rem; 
+            }
+
+            input[type="checkbox"]:focus + label {
+                text-decoration: underline;
+            }
+    
+            label {
+                font-size: 1em;
+                padding-top: -2rem;
+                cursor: pointer;
+            }
+            button {
+                background-color: rgba(128, 128, 128, 0.559);
+                border: none;
+                margin: 0 0.9em;
+                cursor: pointer;
+            }
+    
+            button:hover {
+                color: red;
+            }
+        }
+
+    }
+    
+}
