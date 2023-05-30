@@ -1,7 +1,9 @@
-export default function Header() {
+import './header.scss';
+
+export default function Header(props) {
   return (
-    <div>
-        <h1>Groceries List</h1>
+    <div className='header-container'>
+        <h1>{props.title}</h1>
     </div>
   )
 }
