@@ -3,9 +3,13 @@ import ItemsList from "../ItemsList";
 
 // eslint-disable-next-line react/prop-types
 export default function ContentPart({
+  // eslint-disable-next-line react/prop-types
   items,
+  // eslint-disable-next-line react/prop-types
   handleCheck,
+  // eslint-disable-next-line react/prop-types
   handleDelete,
+  // eslint-disable-next-line react/prop-types
   length,
 }) {
   return (
