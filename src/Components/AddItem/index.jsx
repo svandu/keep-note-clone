@@ -1,11 +1,12 @@
 import AddIcon from '@mui/icons-material/Add';
 
+// eslint-disable-next-line react/prop-types
 export default function AddItem({ newItem, setNewItem, handleSubmit }) {
   return (
     <form className='addForm' onSubmit={handleSubmit}>
         <label htmlFor='addItem'>Add Item</label>
         <input 
-        autoFocus 
+        autoFocus
         id='addItem' 
         type='text' 
         placeholder='Add Item' 
