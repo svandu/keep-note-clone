@@ -13,7 +13,7 @@ export default function ContentPart({
   length,
 }) {
   return (
-    <main>
+    <>
       {items.length ? (
         <ItemsList
           items={items}
@@ -26,6 +26,6 @@ export default function ContentPart({
       <p>
         {length} List {length === 1 || length === 0 ? "item" : "items"}
       </p>
-    </main>
+    </>
   );
 }
